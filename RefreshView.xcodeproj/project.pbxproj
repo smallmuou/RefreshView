@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BADDFA917F7E41900B39C1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BADDFA817F7E41900B39C1E /* UIKit.framework */; };
+		6BADDFAB17F7E41900B39C1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BADDFAA17F7E41900B39C1E /* Foundation.framework */; };
+		6BADDFAD17F7E41900B39C1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BADDFAC17F7E41900B39C1E /* CoreGraphics.framework */; };
+		6BADDFB317F7E41900B39C1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BADDFB117F7E41900B39C1E /* InfoPlist.strings */; };
+		6BADDFB517F7E41900B39C1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BADDFB417F7E41900B39C1E /* main.m */; };
+		6BADDFB917F7E41900B39C1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BADDFB817F7E41900B39C1E /* AppDelegate.m */; };
+		6BADDFBB17F7E41900B39C1E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BADDFBA17F7E41900B39C1E /* Default.png */; };
+		6BADDFBD17F7E41900B39C1E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BADDFBC17F7E41900B39C1E /* Default@2x.png */; };
+		6BADDFBF17F7E41A00B39C1E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BADDFBE17F7E41900B39C1E /* Default-568h@2x.png */; };
+		6BADDFC217F7E41A00B39C1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BADDFC117F7E41A00B39C1E /* ViewController.m */; };
+		6BADDFC517F7E41A00B39C1E /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BADDFC317F7E41A00B39C1E /* ViewController_iPhone.xib */; };
+		6BADDFD217F7E47600B39C1E /* EGORefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6BADDFCF17F7E47600B39C1E /* EGORefresh.bundle */; };
+		6BADDFD317F7E47600B39C1E /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BADDFD117F7E47600B39C1E /* EGORefreshTableHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6BADDFD517F7E70E00B39C1E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BADDFD417F7E70E00B39C1E /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BADDFA517F7E41900B39C1E /* RefreshView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefreshView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BADDFA817F7E41900B39C1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6BADDFAA17F7E41900B39C1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6BADDFAC17F7E41900B39C1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6BADDFB017F7E41900B39C1E /* RefreshView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RefreshView-Info.plist"; sourceTree = "<group>"; };
+		6BADDFB217F7E41900B39C1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BADDFB417F7E41900B39C1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BADDFB617F7E41900B39C1E /* RefreshView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RefreshView-Prefix.pch"; sourceTree = "<group>"; };
+		6BADDFB717F7E41900B39C1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BADDFB817F7E41900B39C1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BADDFBA17F7E41900B39C1E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6BADDFBC17F7E41900B39C1E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6BADDFBE17F7E41900B39C1E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6BADDFC017F7E41A00B39C1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6BADDFC117F7E41A00B39C1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6BADDFC417F7E41A00B39C1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		6BADDFCF17F7E47600B39C1E /* EGORefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EGORefresh.bundle; sourceTree = "<group>"; };
+		6BADDFD017F7E47600B39C1E /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		6BADDFD117F7E47600B39C1E /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		6BADDFD417F7E70E00B39C1E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BADDFA217F7E41900B39C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BADDFD517F7E70E00B39C1E /* QuartzCore.framework in Frameworks */,
+				6BADDFA917F7E41900B39C1E /* UIKit.framework in Frameworks */,
+				6BADDFAB17F7E41900B39C1E /* Foundation.framework in Frameworks */,
+				6BADDFAD17F7E41900B39C1E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BADDF9C17F7E41900B39C1E = {
+			isa = PBXGroup;
+			children = (
+				6BADDFD417F7E70E00B39C1E /* QuartzCore.framework */,
+				6BADDFAE17F7E41900B39C1E /* RefreshView */,
+				6BADDFA717F7E41900B39C1E /* Frameworks */,
+				6BADDFA617F7E41900B39C1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BADDFA617F7E41900B39C1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BADDFA517F7E41900B39C1E /* RefreshView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BADDFA717F7E41900B39C1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BADDFA817F7E41900B39C1E /* UIKit.framework */,
+				6BADDFAA17F7E41900B39C1E /* Foundation.framework */,
+				6BADDFAC17F7E41900B39C1E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BADDFAE17F7E41900B39C1E /* RefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				6BADDFCE17F7E47600B39C1E /* Classes */,
+				6BADDFB717F7E41900B39C1E /* AppDelegate.h */,
+				6BADDFB817F7E41900B39C1E /* AppDelegate.m */,
+				6BADDFC017F7E41A00B39C1E /* ViewController.h */,
+				6BADDFC117F7E41A00B39C1E /* ViewController.m */,
+				6BADDFC317F7E41A00B39C1E /* ViewController_iPhone.xib */,
+				6BADDFAF17F7E41900B39C1E /* Supporting Files */,
+			);
+			path = RefreshView;
+			sourceTree = "<group>";
+		};
+		6BADDFAF17F7E41900B39C1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BADDFB017F7E41900B39C1E /* RefreshView-Info.plist */,
+				6BADDFB117F7E41900B39C1E /* InfoPlist.strings */,
+				6BADDFB417F7E41900B39C1E /* main.m */,
+				6BADDFB617F7E41900B39C1E /* RefreshView-Prefix.pch */,
+				6BADDFBA17F7E41900B39C1E /* Default.png */,
+				6BADDFBC17F7E41900B39C1E /* Default@2x.png */,
+				6BADDFBE17F7E41900B39C1E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BADDFCE17F7E47600B39C1E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6BADDFCF17F7E47600B39C1E /* EGORefresh.bundle */,
+				6BADDFD017F7E47600B39C1E /* EGORefreshTableHeaderView.h */,
+				6BADDFD117F7E47600B39C1E /* EGORefreshTableHeaderView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BADDFA417F7E41900B39C1E /* RefreshView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BADDFCB17F7E41A00B39C1E /* Build configuration list for PBXNativeTarget "RefreshView" */;
+			buildPhases = (
+				6BADDFA117F7E41900B39C1E /* Sources */,
+				6BADDFA217F7E41900B39C1E /* Frameworks */,
+				6BADDFA317F7E41900B39C1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RefreshView;
+			productName = RefreshView;
+			productReference = 6BADDFA517F7E41900B39C1E /* RefreshView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BADDF9D17F7E41900B39C1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = xuwf;
+			};
+			buildConfigurationList = 6BADDFA017F7E41900B39C1E /* Build configuration list for PBXProject "RefreshView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6BADDF9C17F7E41900B39C1E;
+			productRefGroup = 6BADDFA617F7E41900B39C1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BADDFA417F7E41900B39C1E /* RefreshView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BADDFA317F7E41900B39C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BADDFB317F7E41900B39C1E /* InfoPlist.strings in Resources */,
+				6BADDFBB17F7E41900B39C1E /* Default.png in Resources */,
+				6BADDFBD17F7E41900B39C1E /* Default@2x.png in Resources */,
+				6BADDFBF17F7E41A00B39C1E /* Default-568h@2x.png in Resources */,
+				6BADDFC517F7E41A00B39C1E /* ViewController_iPhone.xib in Resources */,
+				6BADDFD217F7E47600B39C1E /* EGORefresh.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BADDFA117F7E41900B39C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BADDFB517F7E41900B39C1E /* main.m in Sources */,
+				6BADDFB917F7E41900B39C1E /* AppDelegate.m in Sources */,
+				6BADDFC217F7E41A00B39C1E /* ViewController.m in Sources */,
+				6BADDFD317F7E47600B39C1E /* EGORefreshTableHeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BADDFB117F7E41900B39C1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BADDFB217F7E41900B39C1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6BADDFC317F7E41A00B39C1E /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BADDFC417F7E41A00B39C1E /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BADDFC917F7E41A00B39C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BADDFCA17F7E41A00B39C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BADDFCC17F7E41A00B39C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RefreshView/RefreshView-Prefix.pch";
+				INFOPLIST_FILE = "RefreshView/RefreshView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6BADDFCD17F7E41A00B39C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RefreshView/RefreshView-Prefix.pch";
+				INFOPLIST_FILE = "RefreshView/RefreshView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BADDFA017F7E41900B39C1E /* Build configuration list for PBXProject "RefreshView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BADDFC917F7E41A00B39C1E /* Debug */,
+				6BADDFCA17F7E41A00B39C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BADDFCB17F7E41A00B39C1E /* Build configuration list for PBXNativeTarget "RefreshView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BADDFCC17F7E41A00B39C1E /* Debug */,
+				6BADDFCD17F7E41A00B39C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BADDF9D17F7E41900B39C1E /* Project object */;
+}
